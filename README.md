@@ -6,7 +6,7 @@ Live website found [here](https://ethanl06.github.io/Minimalist-Tic-Tac-Toe/)
 
 ## About The Project
 
-A personal project to practice my HTML, CSS, and JS skills, working with JS libraries, and creating a clean UI. 
+A personal pet project to practice my HTML, CSS, and JS skills, working with JS libraries, and creating a clean UI. 
 
 ## Built With
 <li>HTML5</li>
