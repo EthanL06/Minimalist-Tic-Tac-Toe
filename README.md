@@ -21,7 +21,7 @@ A personal pet project to practice my HTML, CSS, and JS skills, working with JS 
 ><img src="https://github.com/EthanL06/Minimalist-Tic-Tac-Toe/blob/main/screenshots/title_screen.jpg" alt="alt text" width="800" height="auto">
 
 ### Game Screen  
-><img src="https://github.com/EthanL06/Minimalist-Tic-Tac-Toe/blob/main/screenshots/game_screen.jpg" alt="alt text" width="800" height="auto">
+><img src="https://github.com/EthanL06/Minimalist-Tic-Tac-Toe/blob/main/screenshots/game_screen_1.jpg" alt="alt text" width="800" height="auto">
 
 ### Win Screen  
 ><img src="https://github.com/EthanL06/Minimalist-Tic-Tac-Toe/blob/main/screenshots/win_screen.jpg" alt="alt text" width="800" height="auto">
