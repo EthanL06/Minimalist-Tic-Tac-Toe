@@ -12,11 +12,10 @@
 
 # Screenshots
 ## Title Screen  
-![Title Screen](https://github.com/EthanL06/Minimalist-Tic-Tac-Toe/blob/main/screenshots/title_screen.jpg)
-
+![Title Screen](https://github.com/EthanL06/Minimalist-Tic-Tac-Toe/blob/main/screenshots/title_screen_1.jpg)
 
 ## Game Screen  
-![Game Screen](https://github.com/EthanL06/Minimalist-Tic-Tac-Toe/blob/main/screenshots/game_screen.jpg)
+![Game Screen](https://github.com/EthanL06/Minimalist-Tic-Tac-Toe/blob/main/screenshots/game_screen_1.jpg)
 
 ## End Screen  
-![End Screen](https://github.com/EthanL06/Minimalist-Tic-Tac-Toe/blob/main/screenshots/end_screen.jpg)
+![End Screen](https://github.com/EthanL06/Minimalist-Tic-Tac-Toe/blob/main/screenshots/end_screen_1.jpg)
