@@ -13,34 +13,6 @@ let board = [
 ];
 
 // START BUTTON EVENT LISTENER
-// $(".start-btn").click(function() {
-//
-//   $(this).off("click");
-//   $(this).removeClass("hover");
-//   setTimeout(function() {
-//     openingTheme();
-//
-//     setTimeout(function() {
-//       $(".start-btn").css("cursor", "default");
-//       fadeOut(".start-header", 500);
-//       fadeOut(".subtitle", 800);
-//       fadeOut(".start-btn", 1000);
-//
-//       setTimeout(function() {
-//         $(".hide-at-start").hide();
-//         $(".hidden").toggleClass("hidden");
-//         $(".board, .game-heading").css("opacity", "0");
-//         $(".board, .game-heading").css("scale", "0.3");
-//
-//         setTimeout(function() {
-//           $(".board, .game-heading").transition({opacity: 100, scale: 1}, startGame());
-//           playWhoosh()
-//         }, 1100);
-//       }, 1000);
-//     }, 100);
-//   }, 150);
-// });
-
 $(".start-btn").on({
   click: function() {
 
