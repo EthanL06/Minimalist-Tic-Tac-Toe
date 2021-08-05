@@ -25,4 +25,4 @@
 
 # Future Features
 <li>Responsive view design</li>
-<li>Impossible tic-tac-toe bot</li>
+<li>Impossible tic-tac-toe bot 🤖</li>
