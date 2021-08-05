@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Minimalist Tic-Tac-Toe</title>
+  <link rel="shortcut icon" type="favicon.ico" href="favicon/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header class="noselect hide-at-start">
+    <h1 class="start-header">Tic-Tac-Toe</h1>
+    <h3 class="subtitle">Press <span class="highlight">Start</span> to Play.</h3>
+  </header>
+
+  <div class="btn center noselect hide-at-start">
+    <button type="button" name="button" class="start-btn hover">Start</button>
+  </div>
+
+  <div class="game-heading noselect">
+    <h1 class="turn-indicator hidden">Player 1's Turn.</h1>
+    <h3 class="game-subtitle center">Click <span class="highlight">anywhere</span> to play again.</h3>
+  </div>
+
+
+  <div class="board center hidden noselect">
+    <div class="box">
+      <table>
+        <tr>
+          <td class="one right-border bottom-border"></td>
+          <td class="two right-border bottom-border"></td>
+          <td class="three bottom-border"></td>
+        </tr>
+
+        <tr>
+          <td class="four right-border bottom-border"></td>
+          <td class="five right-border bottom-border"></td>
+          <td class="six bottom-border"></td>
+        </tr>
+
+        <tr>
+          <td class="seven right-border"></td>
+          <td class="eight right-border"></td>
+          <td class="nine "></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <footer class="noselect">
+    <p>Made with ❤️ by Ethan Lanting.</p>
+  </footer>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.transit/0.9.12/jquery.transit.min.js" integrity="sha512-ueXKWOB9liraz677EVGxz6H8nLk3RJjNv8Bfc0WrO9K9NyxROX3D/6bvZ9RYvAcYFxsVU+I0Jt/AMK0Nk8ya5g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="game.js" charset="utf-8"></script>
+</body>
+
+</html>

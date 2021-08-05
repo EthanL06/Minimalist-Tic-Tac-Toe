@@ -1,0 +1,156 @@
+
+/* Global Styles */
+
+body {
+  margin: 0;
+  background-color: #f3f3f3;
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  text-align: center;
+  margin: 3% auto 0;
+  color: #0e1111;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 6rem;
+  margin: 0;
+  text-shadow: 2px 2px 8px #6e7070;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 1.2rem;
+  margin-top: 50px;
+}
+
+table {
+  width: 100%;
+  height: 100%;
+  border-spacing: 0;
+}
+
+footer {
+  position: fixed;
+  bottom: 5px;
+  width: 100%;
+  text-align: center;
+  color: #0e1111;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+td {
+  width: 166.172px;
+  height: 169.641px;
+  padding: 0;
+}
+
+img {
+  width: 80%;
+}
+
+
+
+
+
+/* Classes */
+
+.start-btn {
+  margin: 0;
+  text-decoration: none;
+  background: none;
+  color: #0e1111;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.7rem;
+  font-weight: 400;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  border-radius: 50px;
+  border-width: 1px;
+  border-color: #262929;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 100px;
+  height: 100px;
+}
+
+.hover:hover {
+  background: #163636;
+  border-color: #163636;
+  color: #f3f3f3;
+  transform: scale(0.95);
+}
+.start-btn:active {
+  transform: scale(0.90);
+}
+
+.btn {
+  min-height: 50vh;
+}
+
+.board {
+  min-height: 70vh;
+}
+
+.box {
+  width: 500px;
+  height: 500px;
+}
+
+.top-border {
+  border-top: 2px solid #0e1111;
+}
+
+.bottom-border {
+  border-bottom: 2px solid #0e1111;
+}
+
+.left-border {
+  border-left: 2px solid #0e1111;
+}
+
+.right-border {
+  border-right: 2px solid #0e1111;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.highlight {
+  font-weight: 500;
+}
+
+.hidden {
+  display: none;
+}
+
+.turn-indicator {
+  text-align: center;
+  font-size: 5rem;
+  margin: 50px 0;
+}
+
+.game-subtitle {
+  display: none;
+  opacity: 0;
+  margin-bottom: 40px;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
