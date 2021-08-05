@@ -11,7 +11,7 @@ A personal project to practice my HTML, CSS, and JS skills, working with JS libr
 ## Built With
 <li>HTML5</li>
 <li>CSS3</li>
-<li>Javascript</li>
+<li>JavaScript</li>
 <li>jQuery</li>
 <li>jQuery Transit</li>
 
