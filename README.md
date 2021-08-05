@@ -35,3 +35,7 @@ A personal pet project to practice my HTML, CSS, and JS skills, working with JS 
 <li>Responsive view design</li>
 <li>Impossible tic-tac-toe bot 🤖</li>
 <li>Online multiplayer??</li>
+
+
+## Credits
+Sound effects obtained from [zapsplat.com](https://www.zapsplat.com/) and [freesound.org](https://freesound.org/)
