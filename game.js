@@ -46,7 +46,7 @@ $(".start-btn").click(function() {
 function startGame() {
   board = [[],[],[]];
   playerOneTurn = true;
-  gameHeading.text("Player 1's turn");
+  setGameHeading();
   cellClickListener();
 }
 
