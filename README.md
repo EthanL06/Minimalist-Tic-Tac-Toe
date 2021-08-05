@@ -19,3 +19,7 @@
 
 ## End Screen  
 ![End Screen](https://github.com/EthanL06/Minimalist-Tic-Tac-Toe/blob/main/screenshots/end_screen_1.jpg)
+
+# Future Features
+<li>Responsive view design</li>
+<li>Impossible tic-tac-toe bot</li>
