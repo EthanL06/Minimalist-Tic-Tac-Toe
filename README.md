@@ -6,7 +6,7 @@
 # Built With
 <li>HTML5</li>
 <li>CSS3</li>
-<li>Javscript</li>
+<li>Javascript</li>
 <li>jQuery</li>
 <li>jQuery Transit</li>
 
@@ -17,6 +17,6 @@
 
 ## Game Screen  
 ![Game Screen](https://github.com/EthanL06/Minimalist-Tic-Tac-Toe/blob/main/screenshots/game_screen.jpg)
- 
+
 ## End Screen  
 ![End Screen](https://github.com/EthanL06/Minimalist-Tic-Tac-Toe/blob/main/screenshots/end_screen.jpg)
