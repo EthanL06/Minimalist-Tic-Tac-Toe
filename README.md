@@ -1,6 +1,6 @@
 # Minimalist Tic-Tac-Toe
 
-> The classic Tic-Tac-Toe game with a minimalist, sleek, modern design incorporated with smooth transitions to play with friends and family.
+> The classic Tic-Tac-Toe game with a minimalist, sleek, modern design incorporated with smooth, satisfying, seamless transitions to play with friends and family.
 > Live website found [here](https://ethanl06.github.io/Minimalist-Tic-Tac-Toe/)
 
 # Built With
@@ -24,5 +24,7 @@
 ![Tie Screen](https://github.com/EthanL06/Minimalist-Tic-Tac-Toe/blob/main/screenshots/tie_screen.jpg)
 
 # Future Features
+<li>More animations</li>
 <li>Responsive view design</li>
 <li>Impossible tic-tac-toe bot 🤖</li>
+<li>Online multiplayer??</li>
