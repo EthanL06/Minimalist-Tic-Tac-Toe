@@ -1,6 +1,6 @@
 # Minimalist Tic-Tac-Toe
 
-The classic Tic-Tac-Toe game with a minimalist, sleek, modern design incorporated with smooth, satisfying, seamless transitions to play with friends and family.
+The classic Tic-Tac-Toe game with a minimalist, sleek, modern design incorporated with smooth, satisfying, seamless transitions to play with family and friends.
 
 Live website found [here](https://ethanl06.github.io/Minimalist-Tic-Tac-Toe/)
 
