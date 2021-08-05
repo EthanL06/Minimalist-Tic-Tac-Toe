@@ -379,7 +379,7 @@ function placeAudio() {
   } else {
     audio = new Audio(`sounds/place_deep.wav`);
   }
-  audio.volume = 0.4;
+  audio.volume = 0.7;
   audio.play();
 }
 
