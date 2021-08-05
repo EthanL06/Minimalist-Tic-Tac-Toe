@@ -13,32 +13,64 @@ let board = [
 ];
 
 // START BUTTON EVENT LISTENER
-$(".start-btn").click(function() {
+// $(".start-btn").click(function() {
+//
+//   $(this).off("click");
+//   $(this).removeClass("hover");
+//   setTimeout(function() {
+//     openingTheme();
+//
+//     setTimeout(function() {
+//       $(".start-btn").css("cursor", "default");
+//       fadeOut(".start-header", 500);
+//       fadeOut(".subtitle", 800);
+//       fadeOut(".start-btn", 1000);
+//
+//       setTimeout(function() {
+//         $(".hide-at-start").hide();
+//         $(".hidden").toggleClass("hidden");
+//         $(".board, .game-heading").css("opacity", "0");
+//         $(".board, .game-heading").css("scale", "0.3");
+//
+//         setTimeout(function() {
+//           $(".board, .game-heading").transition({opacity: 100, scale: 1}, startGame());
+//           playWhoosh()
+//         }, 1100);
+//       }, 1000);
+//     }, 100);
+//   }, 150);
+// });
 
-  $(this).off("click");
-  $(this).removeClass("hover");
-  setTimeout(function() {
-    openingTheme();
+$(".start-btn").on({
+  click: function() {
 
+    $(this).off("click");
+    $(this).off("mousedown");
+    $(this).removeClass("hover");
     setTimeout(function() {
-      $(".start-btn").css("cursor", "default");
-      fadeOut(".start-header", 500);
-      fadeOut(".subtitle", 800);
-      fadeOut(".start-btn", 1000);
+      openingTheme();
 
       setTimeout(function() {
-        $(".hide-at-start").hide();
-        $(".hidden").toggleClass("hidden");
-        $(".board, .game-heading").css("opacity", "0");
-        $(".board, .game-heading").css("scale", "0.3");
+        $(".start-btn").css("cursor", "default");
+        fadeOut(".start-header", 500);
+        fadeOut(".subtitle", 800);
+        fadeOut(".start-btn", 1000);
 
         setTimeout(function() {
-          $(".board, .game-heading").transition({opacity: 100, scale: 1}, startGame());
-          playWhoosh()
-        }, 1100);
-      }, 1000);
-    }, 100);
-  }, 150);
+          $(".hide-at-start").hide();
+          $(".hidden").toggleClass("hidden");
+          $(".board, .game-heading").css("opacity", "0");
+          $(".board, .game-heading").css("scale", "0.3");
+
+          setTimeout(function() {
+            $(".board, .game-heading").transition({opacity: 100, scale: 1}, startGame());
+            playWhoosh()
+          }, 1100);
+        }, 1000);
+      }, 100);
+    }, 150);
+  },
+  mousedown: playClick
 });
 
 
@@ -209,6 +241,14 @@ function disableCellEventListeners() {
   $("td").off('click');
 }
 
+function restartEvent() {
+  $(document).on('click', function() {
+    $(this).off('click');
+    playButtonClick();
+    restartAnimation();
+  })
+}
+
 
 
 /*
@@ -246,13 +286,6 @@ RESTART FUNCTIONS
 
 */
 
-function restartEvent() {
-  $(document).on('click', function() {
-    $(this).off('click');
-
-    restartAnimation();
-  })
-}
 
 function restartAnimation() {
   setTimeout(function() {
@@ -363,6 +396,18 @@ SFX/AUDIO FUNCTIONS
 
 function openingTheme() {
   let audio = new Audio(`sounds/game_start.wav`);
+  audio.play();
+}
+
+function playClick() {
+  let audio = new Audio("sounds/click.mp3");
+  audio.volume = 0.5;
+  audio.play();
+}
+
+function playButtonClick() {
+  let audio = new Audio("sounds/button_click.mp3");
+  audio.volume = 0.5;
   audio.play();
 }
 
