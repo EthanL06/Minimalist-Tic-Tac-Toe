@@ -12,13 +12,16 @@
 
 # Screenshots
 ## Title Screen  
-![Title Screen](https://github.com/EthanL06/Minimalist-Tic-Tac-Toe/blob/main/screenshots/title_screen_1.jpg)
+![Title Screen](https://github.com/EthanL06/Minimalist-Tic-Tac-Toe/blob/main/screenshots/title_screen.jpg)
 
 ## Game Screen  
-![Game Screen](https://github.com/EthanL06/Minimalist-Tic-Tac-Toe/blob/main/screenshots/game_screen_1.jpg)
+![Game Screen](https://github.com/EthanL06/Minimalist-Tic-Tac-Toe/blob/main/screenshots/game_screen.jpg)
 
-## End Screen  
-![End Screen](https://github.com/EthanL06/Minimalist-Tic-Tac-Toe/blob/main/screenshots/end_screen_1.jpg)
+## Win Screen  
+![End Screen](https://github.com/EthanL06/Minimalist-Tic-Tac-Toe/blob/main/screenshots/win_screen.jpg)
+
+## Tie Screen
+![Tie Screen](https://github.com/EthanL06/Minimalist-Tic-Tac-Toe/blob/main/screenshots/tie_screen.jpg)
 
 # Future Features
 <li>Responsive view design</li>
